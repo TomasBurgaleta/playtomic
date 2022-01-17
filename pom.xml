@@ -8,6 +8,13 @@
 	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
 	<name>Wallet Service Exercise</name>
 
 	<parent>
@@ -60,6 +67,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>0.18</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.JensPiegsa</groupId>
+			<artifactId>wiremock-extension</artifactId>
+			<version>0.4.0</version>
 		</dependency>
 	</dependencies>
 
